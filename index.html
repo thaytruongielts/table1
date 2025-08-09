@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện Viết IELTS Writing Task 1: Table</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .lesson-container {
+            background-color: #ffffff;
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            padding: 2.5rem;
+            width: 100%;
+            max-width: 900px;
+            margin-top: 20px;
+        }
+        .slide-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .slide-content {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #4a5568;
+            margin-bottom: 1.5rem;
+        }
+        .interactive-section textarea {
+            width: 100%;
+            min-height: 100px;
+            padding: 1rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.75rem;
+            font-size: 1rem;
+            resize: vertical;
+            transition: all 0.2s ease;
+        }
+        .interactive-section textarea:focus {
+            outline: none;
+            border-color: #4299e1;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+        }
+        .correct-answer-box {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin-top: 1rem;
+            font-weight: 600;
+            line-height: 1.5;
+            display: none;
+        }
+        .button {
+            padding: 0.8rem 1.5rem;
+            border-radius: 0.75rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .button:hover:enabled {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        .submit-button {
+            background-color: #2563eb;
+            color: white;
+        }
+        .lesson-nav-button {
+            background-color: #48bb78;
+            color: white;
+        }
+        .final-message {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #2d3748;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .restart-button {
+            background-color: #f6ad55;
+            color: white;
+            margin-top: 1rem;
+        }
+        .restart-button:hover:enabled {
+            background-color: #ed8936;
+        }
+    </style>
+</head>
+<body>
+    <div class="lesson-container">
+        <h1 class="text-3xl font-extrabold text-center text-gray-800 mb-6">Luyện Viết IELTS Writing Task 1: Table</h1>
+        <p class="text-center text-gray-600 mb-8">Dưới đây là 25 câu hỏi luyện tập. Hãy quan sát bảng số liệu giả định và viết câu trả lời của bạn vào ô trống. Sau khi hoàn thành, nhấn "Nộp bài" để xem đáp án gợi ý.</p>
+
+        <div id="lesson-slides">
+            
+            <div id="slide-0" class="lesson-slide">
+                <h2 class="slide-title">Câu hỏi 1</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu mở bài cho một bảng số liệu mô tả số lượng học sinh tại 4 trường học năm 2024.</p>
+                    <textarea id="q0-answer" placeholder="Hãy viết câu trả lời của bạn bằng tiếng Anh..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="0">Nộp bài</button>
+                    <div id="q0-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The table provides data on the number of students at four different schools in the year 2024.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-1" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 2</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu Overview: "Trường Quốc tế có số lượng học sinh cao nhất, trong khi trường Dân lập có ít nhất."</p>
+                    <textarea id="q1-answer" placeholder="Hãy viết câu trả lời của bạn bằng tiếng Anh..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="1">Nộp bài</button>
+                    <div id="q1-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>Overall, the International School had the highest number of students, while the Private School had the lowest.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-2" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 3</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu miêu tả: "Có 500 học sinh tại Trường Quốc tế, và 300 tại Trường Dân lập."</p>
+                    <textarea id="q2-answer" placeholder="Hãy viết câu trả lời của bạn bằng tiếng Anh..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="2">Nộp bài</button>
+                    <div id="q2-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The International School had 500 students, whereas the Private School had 300 students.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-3" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 4</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu so sánh: "Doanh thu của Công ty A năm 2020 gấp đôi năm 2010."</p>
+                    <textarea id="q3-answer" placeholder="Hãy viết câu trả lời của bạn bằng tiếng Anh..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="3">Nộp bài</button>
+                    <div id="q3-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The revenue of Company A in 2020 was double the figure for 2010.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slide-4" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 5</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu miêu tả: "Chi tiêu cho thực phẩm chiếm 40% tổng ngân sách, đây là tỷ lệ lớn nhất."</p>
+                    <textarea id="q4-answer" placeholder="Hãy viết câu trả lời của bạn bằng tiếng Anh..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="4">Nộp bài</button>
+                    <div id="q4-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>Spending on food accounted for 40% of the total budget, representing the largest proportion.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-5" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 6</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Số lượng người đi du lịch bằng máy bay tăng từ 10 triệu lên 30 triệu từ năm 2000 đến 2010."</p>
+                    <textarea id="q5-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="5">Nộp bài</button>
+                    <div id="q5-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The number of air travellers increased from 10 million to 30 million between 2000 and 2010.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slide-6" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 7</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Thứ hai và thứ tư có số người đi xem phim tương tự nhau, lần lượt là 200 và 210 người."</p>
+                    <textarea id="q6-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="6">Nộp bài</button>
+                    <div id="q6-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The number of moviegoers on Monday and Wednesday was similar, at 200 and 210 respectively.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-7" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 8</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Số lượng sinh viên ngành Kỹ thuật giảm mạnh từ 1500 xuống 800 trong 5 năm."</p>
+                    <textarea id="q7-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="7">Nộp bài</button>
+                    <div id="q7-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The number of engineering students dropped sharply from 1500 to 800 over a five-year period.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slide-8" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 9</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Chi phí vận chuyển chiếm một phần nhỏ, chỉ 5%."</p>
+                    <textarea id="q8-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="8">Nộp bài</button>
+                    <div id="q8-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>Shipping costs made up a small proportion, accounting for only 5%.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-9" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 10</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Trong khi số lượng người sử dụng thư viện giảm, số người mua sách trực tuyến lại tăng."</p>
+                    <textarea id="q9-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="9">Nộp bài</button>
+                    <div id="q9-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>While the number of library users declined, the number of people purchasing books online rose.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-10" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 11</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Năm 2005, có 100 triệu người dùng mạng xã hội, gấp đôi năm 2000."</p>
+                    <textarea id="q10-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="10">Nộp bài</button>
+                    <div id="q10-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>In 2005, social media users stood at 100 million, which was double the figure for 2000.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-11" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 12</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu miêu tả: "Sản lượng xe hơi giảm nhẹ từ 1.2 triệu xuống 1.1 triệu chiếc."</p>
+                    <textarea id="q11-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="11">Nộp bài</button>
+                    <div id="q11-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>Car production fell slightly from 1.2 million to 1.1 million units.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-12" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 13</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Tỷ lệ nam và nữ thích đọc sách là như nhau."</p>
+                    <textarea id="q12-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="12">Nộp bài</button>
+                    <div id="q12-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The percentage of males and females who enjoy reading was the same.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-13" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 14</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Số lượng người đi du lịch bằng máy bay cao hơn hẳn tàu hỏa."</p>
+                    <textarea id="q13-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="13">Nộp bài</button>
+                    <div id="q13-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The number of air travellers was significantly higher than the figure for train passengers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-14" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 15</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu miêu tả: "Sự chênh lệch giữa tỷ lệ chi tiêu cho giáo dục và y tế là rất nhỏ."</p>
+                    <textarea id="q14-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="14">Nộp bài</button>
+                    <div id="q14-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The difference in spending on education and healthcare was marginal.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slide-15" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 16</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu bị động: "Có 50 triệu chiếc điện thoại được bán năm 2024."</p>
+                    <textarea id="q15-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="15">Nộp bài</button>
+                    <div id="q15-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>A total of 50 million phones were sold in 2024.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slide-16" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 17</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu mở đầu cho Body 1: "Nhìn vào biểu đồ, có thể thấy rõ các chi tiết."</p>
+                    <textarea id="q16-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="16">Nộp bài</button>
+                    <div id="q16-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>Turning to the details, it is evident that...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slide-17" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 18</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu so sánh: "Sản lượng lúa mì năm 2020 là 300 tấn, gấp ba lần năm 2010."</p>
+                    <textarea id="q17-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="17">Nộp bài</button>
+                    <div id="q17-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>Wheat production in 2020, at 300 tons, was three times higher than in 2010.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-18" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 19</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Số lượng sinh viên nữ tăng trong khi sinh viên nam giảm."</p>
+                    <textarea id="q18-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="18">Nộp bài</button>
+                    <div id="q18-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The number of female students saw an increase, whereas the figure for male students experienced a decrease.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slide-19" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 20</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu so sánh: "Doanh số của hai sản phẩm A và B gần như giống nhau trong năm 2022."</p>
+                    <textarea id="q19-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="19">Nộp bài</button>
+                    <div id="q19-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The sales of products A and B were almost identical in 2022.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-20" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 21</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Tỷ lệ chi tiêu cho quần áo chỉ chiếm một phần rất nhỏ, dưới 5%."</p>
+                    <textarea id="q20-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="20">Nộp bài</button>
+                    <div id="q20-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The proportion of spending on clothes was marginal, at just under 5%.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slide-21" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 22</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu mở bài cho 2 biểu đồ tròn mô tả sự thay đổi chi tiêu của một gia đình từ năm 1990 đến 2020.</p>
+                    <textarea id="q21-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="21">Nộp bài</button>
+                    <div id="q21-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The pie charts show the changes in how an average family's income was spent in 1990 and 2020.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="slide-22" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 23</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Chi tiêu cho vận chuyển tăng đáng kể từ 10% lên 25%."</p>
+                    <textarea id="q22-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="22">Nộp bài</button>
+                    <div id="q22-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The spending on transport increased significantly from 10% to 25%.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slide-23" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 24</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Nhìn chung, ba hạng mục chi tiêu lớn nhất là A, B, và C."</p>
+                    <textarea id="q23-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="23">Nộp bài</button>
+                    <div id="q23-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>Generally, the three largest categories of spending were A, B, and C.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="slide-24" class="lesson-slide hidden">
+                <h2 class="slide-title">Câu hỏi 25</h2>
+                <div class="interactive-section">
+                    <p class="font-bold text-lg mb-4">Viết câu: "Tỷ lệ chi tiêu cho giải trí chỉ thay đổi một chút từ 10% lên 11%."</p>
+                    <textarea id="q24-answer" placeholder="Hãy viết câu trả lời của bạn..."></textarea>
+                    <button class="submit-button button mt-4" data-quiz-id="24">Nộp bài</button>
+                    <div id="q24-correct-answer" class="correct-answer-box">
+                        <p class="font-bold">Đáp án mẫu:</p>
+                        <p>The percentage of spending on entertainment changed only slightly from 10% to 11%.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="final-screen" class="lesson-slide hidden">
+                <h2 class="slide-title">Hoàn Thành Bài Giảng!</h2>
+                <p class="final-message">🎉 Chúc mừng! Bạn đã hoàn thành 25 bài luyện tập Pie Chart.</p>
+                <button id="restart-lesson-button" class="button restart-button w-full mt-8">Học Lại Bài Giảng</button>
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center mt-8">
+            <button id="prev-slide-button" class="button lesson-nav-button" disabled>Câu trước</button>
+            <span id="slide-indicator" class="text-lg font-semibold text-gray-700">Slide 1 / 26</span>
+            <button id="next-slide-button" class="button lesson-nav-button">Câu tiếp theo</button>
+        </div>
+    </div>
+
+    <script>
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.lesson-slide');
+        const prevButton = document.getElementById('prev-slide-button');
+        const nextButton = document.getElementById('next-slide-button');
+        const slideIndicator = document.getElementById('slide-indicator');
+        const restartLessonButton = document.getElementById('restart-lesson-button');
+        const totalLessonSlides = slides.length;
+        
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.add('hidden');
+                if (i === index) {
+                    slide.classList.remove('hidden');
+                }
+            });
+
+            prevButton.disabled = (index === 0);
+            
+            if (index < totalLessonSlides - 1) {
+                nextButton.classList.remove('hidden');
+                nextButton.disabled = false;
+                slideIndicator.textContent = `Câu ${index + 1} / ${totalLessonSlides - 1}`;
+            } else {
+                nextButton.classList.add('hidden');
+                slideIndicator.textContent = `Hoàn thành!`;
+            }
+        }
+
+        prevButton.addEventListener('click', () => {
+            if (currentSlideIndex > 0) {
+                currentSlideIndex--;
+                showSlide(currentSlideIndex);
+            }
+        });
+
+        nextButton.addEventListener('click', () => {
+            if (currentSlideIndex < totalLessonSlides - 1) {
+                currentSlideIndex++;
+                showSlide(currentSlideIndex);
+            }
+        });
+
+        restartLessonButton.addEventListener('click', () => {
+            currentSlideIndex = 0;
+            showSlide(currentSlideIndex);
+            document.querySelectorAll('textarea').forEach(textarea => {
+                textarea.value = '';
+                textarea.disabled = false;
+            });
+            document.querySelectorAll('.submit-button').forEach(button => {
+                button.disabled = false;
+            });
+            document.querySelectorAll('.correct-answer-box').forEach(answerBox => {
+                answerBox.style.display = 'none';
+            });
+        });
+
+        document.querySelectorAll('.submit-button').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const quizId = e.target.dataset.quizId;
+                const answerBox = document.getElementById(`q${quizId}-correct-answer`);
+                answerBox.style.display = 'block';
+                e.target.disabled = true;
+                document.getElementById(`q${quizId}-answer`).disabled = true;
+            });
+        });
+
+        showSlide(currentSlideIndex);
+    </script>
+</body>
+</html>
